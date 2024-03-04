@@ -82,7 +82,7 @@ export const FileUploader = () => {
       >
         <CardHeader>
           <CardTitle>
-            Convert Files
+            Convert Images 
           </CardTitle>
           <CardDescription>
             Drag and drop or select files to convert. 
