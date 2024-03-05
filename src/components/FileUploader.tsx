@@ -110,7 +110,7 @@ export const FileUploader = () => {
           <Button onClick={onConvertFiles}>{!isLoading ? "Convert" : "Just one moment ..."}</Button>
         </CardFooter>
       </Card>
-      <Label className="w-full mt-6 mx-auto md:w-1/2 text-center text-gray-500">We don't store any files on our end! All file changes and conversions are run locally!</Label>
+      <Label className="w-full mt-6 mx-auto md:w-1/2 text-center text-gray-500">We don't store any files on our end! All file changes and conversions are run on client!</Label>
     </div>
   )
 } 
